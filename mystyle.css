@@ -1,0 +1,35 @@
+
+body {
+    background: url(bg1.jpg);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    
+    font-family: 'Satisfy', cursive;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+p {
+    background-color: rgb(90, 39, 81);
+    padding: 20px;
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    color: aliceblue;
+    font-family: 'Corinthia', cursive;
+
+}
