@@ -1,6 +1,7 @@
 
 body {
     background: url(bg1.jpg);
+    
 }
 
 h1 {
@@ -20,16 +21,17 @@ img {
     margin-right: auto;
     margin-top: 10%;
 }
-
-p {
+p{
     background-color: rgb(90, 39, 81);
     padding: 20px;
     display: flex;
     margin-top: 375px;
-    justify-content: center;
+    justify-content:center;
     border-radius: 20px;
     margin-bottom: 0px;
     color: aliceblue;
     font-family: 'Corinthia', cursive;
-
+    display: flex;
+    flex-wrap: wrap;
+   
 }
