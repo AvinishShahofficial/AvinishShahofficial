@@ -1,0 +1,28 @@
+body{
+    max-width: 585px;
+}
+/*paragraph*/
+h1 {
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 65px;
+    font-size: 20px;
+    color: rgb(0, 3, 5);
+    font-family: 'Satisfy';
+}
+/*link*/
+a{
+    color: rgb(17, 205, 186);
+    text-decoration: none;
+    font-family:Geneva;
+}
+h3{
+    margin-left: 45px;
+    font-size: 5px;
+    margin-right: 45px;
+}
+h2{
+    margin-left: 45px;
+    font-size:5px;
+    margin-right: 45px;
+}
