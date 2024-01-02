@@ -11,9 +11,7 @@ body{
     height: 100vh;
     background: #212529;
 }
-#subtitle{
-color: #fff;
-}
+
 .navbar{
     display: flex;
     align-items: center;
