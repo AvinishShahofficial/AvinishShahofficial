@@ -79,7 +79,7 @@ body{
 
 .main h4 span{
     color: #ffb742;
-    text-decoration:none;
+    text-decoration: underline;
 }
 
 .main p.title{
