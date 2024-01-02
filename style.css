@@ -123,9 +123,7 @@ body{
     transition: all 0.3s ease;
 }
 
-.guarantee .item:hover{
-    border-color: #ffb742;
-}
+
 
 .guarantee .item .icon{
     width: 46px;
