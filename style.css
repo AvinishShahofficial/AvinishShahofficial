@@ -112,7 +112,7 @@ body{
 .guarantee .item{
     background: #292b2e;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 100px;
     width: 100%;
