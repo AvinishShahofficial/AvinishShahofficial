@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>500 Server Error</title>
+  <style>
+    
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      overflow: hidden;
+    }
+
+    /* Centered error container */
+    .error-container {
+      text-align: center;
+      padding: 20px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    /* Error code styling */
+    .error-code {
+      font-size: 100px;
+      font-weight: bold;
+      margin: 0;
+      color: #e74c3c; /* Red color for attention */
+      animation: pulse 1.5s infinite;
+    }
+
+    /* Error message styling */
+    .error-text {
+      font-size: 24px;
+      letter-spacing: 5px;
+      margin-top: -10px;
+      text-transform: uppercase;
+      color: #555;
+      animation: slideIn 1.2s ease-in-out;
+    }
+
+    /* Additional description */
+    .error-description {
+      font-size: 16px;
+      color: #777;
+      max-width: 500px;
+      margin: 20px auto;
+      line-height: 1.5;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    @keyframes slideIn {
+      0% { transform: translateY(50px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="error-container">
+    <div class="error-code">500</div>
+    <div class="error-text">Server Error</div>
+    <p class="error-description">
+      Opps!!  something just isn't right... Please try again later!
+    </p>
+  </div>
+</body>
+</html>
