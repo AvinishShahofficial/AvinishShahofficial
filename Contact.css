@@ -79,6 +79,7 @@ header p {
 
 .contact-info p strong {
     color: #0070ba;
+    text-decoration: none;
 }
 
 ul.social-media {
