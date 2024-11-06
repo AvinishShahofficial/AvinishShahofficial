@@ -75,11 +75,12 @@ header p {
     font-size: 1.2rem;
     margin-bottom: 15px;
     color: #333;
+    text-decoration: none;
 }
 
 .contact-info p strong {
     color: #0070ba;
-    text-decoration: none;
+    
 }
 
 ul.social-media {
